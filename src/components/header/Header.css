@@ -1,0 +1,69 @@
+header {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+#logo-header {
+    display: flex;
+    align-items: center;
+}
+
+#logo-header img {
+    height: 50px;
+}
+
+#phone-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 2;
+    font-weight: 600;
+}
+
+#phone-header img {
+    height: 40px;
+    margin-right: 15px;
+}
+
+#user-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+}
+
+#user-header {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #c2b9b9;
+    height: 100%;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+#user-container img {
+    height: 40px;
+}
+
+#user-header>img {
+    height: 5px;
+    position: absolute;
+    margin-left: 140px;
+}
+
+#bar-header {
+    height: 50px;
+    width: 2px;
+    background-color: #c2b9b9;
+    display: flex;
+    align-self: center;
+    margin: 0 70px;
+}

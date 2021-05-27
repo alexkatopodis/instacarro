@@ -1,0 +1,123 @@
+.image {
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.image-container {
+    height: 270px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.image-container button {
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    border: unset;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.card {
+    padding: 0px;
+    border: 5px  rgb(73, 70, 70);
+    background-color:#ffffff;
+    margin: 20px;
+    display: flex;  
+    flex-direction: column;
+    width: 400px;        
+    border-radius: 5px; 
+    overflow: hidden;
+    /* background-color: red;   */
+    
+}
+
+.details-card {
+    padding: 0 15px;
+
+}
+
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;    
+}
+
+.first-container, .third-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.time-remaining-container, .last-offer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.time-remaining-text, .last-offer-text {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.time-remaining{
+    color: #ff6d4a;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+
+.last-offer-price {
+    color: #3eb871;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.vertical-bar {
+    height: 30px;
+    width: 2px;
+    background-color: #c2b9b9;
+    display: flex;
+    align-self: center;
+}
+
+.second-container {
+        
+    text-align: center;
+    border-top: 2px solid #e4e4e4;
+    height: 60px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.second-container h4 {
+    font-size: 16px;    
+    margin:unset;
+}
+
+.year, .km{    
+    text-align: center;
+}
+
+
+
+.time-remaining-container, .last-offer-container, .km , .year {
+    width: 140px;
+}
+
+
+
+.third-container {
+    border-top: 2px solid #e4e4e4;
+    border-bottom: 2px solid #e4e4e4;
+    padding: 10px 0;
+    align-items: center;    
+}

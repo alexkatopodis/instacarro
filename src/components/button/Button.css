@@ -1,0 +1,21 @@
+.button {
+    background-color:hsl(145, 50%, 48%);
+    padding: 10px  ;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 15px;
+    opacity: 1;
+    transition: all ease 0.2;  
+    cursor: pointer;    
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.offer {
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;   
+    font-weight: bold; 
+}
