@@ -2,12 +2,11 @@
     height: 270px;
     background-size: 100% 100%;
     display: flex;
-    flex-direction: column-reverse;    
+    flex-direction: column-reverse;
 }
 
-
 .image-container button {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
     border: unset;
     padding: 3px;
@@ -16,27 +15,24 @@
 
 .card {
     padding: 0px;
-    border: 5px  rgb(73, 70, 70);
-    background-color:#ffffff;
+    border: 5px rgb(73, 70, 70);
+    background-color: #ffffff;
     margin: 20px;
-    display: flex;  
+    display: flex;
     flex-direction: column;
-    width: 400px;        
-    border-radius: 5px; 
-    overflow: hidden;           
+    width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
 }
-
-
 
 .details-card {
     padding: 0 15px;
 }
 
-
 .card-body {
     display: flex;
     justify-content: space-between;
-    padding: 0 80px;    
+    padding: 0 80px;
 }
 
 .first-container, .third-container {
@@ -55,19 +51,16 @@
 
 .time-remaining-text, .last-offer-text {
     font-size: 10px;
-    font-family: 'Open Sans', sans-serif;
-    
+    font-weight: 400;
 }
 
-.time-remaining{
+.time-remaining {
     color: #ff6d4a;
     font-size: 25px;
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    
 }
-
 
 .last-offer-price {
     color: #3eb871;
@@ -84,35 +77,26 @@
 }
 
 .second-container {
-        
     text-align: center;
     border-top: 2px solid #dbd4d4;
     height: 60px;
     padding: 0 10px;
     display: flex;
     align-items: center;
+    font-size: 14px;
+    margin: unset;
 }
 
-.second-container h4 {
-    font-size: 16px;    
-    margin:unset;
-}
-
-.year, .km{    
-    text-align: center;
-}
-
-
-
-.time-remaining-container, .last-offer-container, .km , .year {
+.time-remaining-container, .last-offer-container, .km, .year {
     width: 140px;
 }
-
-
 
 .third-container {
     border-top: 2px solid #dbd4d4;
     border-bottom: 2px solid #dbd4d4;
     padding: 10px 0;
-    align-items: center;    
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
 }

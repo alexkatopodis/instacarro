@@ -17,7 +17,7 @@ const Card = (props) => {
     useEffect(() => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
         countDown = setInterval(() => setNewTime(), 1000);
-    },[]);
+    }, []);
 
 
     const setNewTime = () => {
@@ -30,18 +30,18 @@ const Card = (props) => {
         let hours = (time - minutes) / 60;
         baseTime -= 1000;
 
-              
+
         if (hours < 10) {
             hours = `0${hours}`;
         }
         if (minutes < 10) {
             minutes = `0${minutes}`;
-        } 
+        }
         if (seconds < 10) {
             seconds = `0${seconds}`;
         }
-        
-        if (baseTime <= 0 ) clearInterval(countDown)
+
+        if (baseTime <= 0) clearInterval(countDown)
 
         setState({ hours, minutes, seconds });
     };
@@ -98,9 +98,9 @@ const Card = (props) => {
                 </div>
 
                 <div className="second-container">
-                    <h4 className="card-make">
+                    <div className="card-make">
                         {props.data.make} {props.data.model} {props.data.version}
-                    </h4>
+                    </div>
                 </div>
 
                 <div className="third-container">
