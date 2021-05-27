@@ -100,3 +100,23 @@
     text-align: center;
     font-weight: bold;
 }
+
+@media (max-width: 760px) {
+    .time-remaining ,
+    .last-offer-price {
+        font-size: 20px;
+    }
+
+    .time-remaining-text, 
+    .last-offer-text {
+        font-size: 8px;
+    }
+
+    .second-container{
+        font-size: 12px;
+    }
+
+    .km, .year {
+        font-size: 12px;
+    }
+}
