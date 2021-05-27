@@ -15,6 +15,7 @@ const Card = (props) => {
     });
 
     useEffect(() => {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         countDown = setInterval(() => setNewTime(), 1000);
     },[]);
 
