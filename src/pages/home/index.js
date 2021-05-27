@@ -44,7 +44,7 @@ const Home = () => {
 
     return (
 
-        <div id="container-home">
+        <div className="container-home">
             <HeaderComponent />
             <div className="content-card">
                 {cardData()}

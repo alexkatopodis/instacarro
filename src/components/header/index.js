@@ -10,17 +10,17 @@ const HeaderComponent = () => {
     return (
 
         <header>
-            <div id="container-header">
-                <div id="logo-header">
+            <div className="container-header">
+                <div className="logo-header">
                     <img src={InstaCarroLogo} alt="Logo InstaCarro" />
                 </div>
-                <div id="bar-header"></div>
-                <div id="phone-header">
+                <div className="bar-header"></div>
+                <div className="phone-header">
                     <img src={Phone} alt="Logo Phone" />
                     (11) 3569 - 3465
                 </div>
-                <div id="user-header">
-                    <div id="user-container">
+                <div className="user-header">
+                    <div className="user-container">
                         <img src={User} alt="Logo User" />
                         User Test
                     </div>
