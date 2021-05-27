@@ -36,7 +36,6 @@
 
 .details-card {
     padding: 0 15px;
-
 }
 
 
@@ -70,6 +69,8 @@
     color: #ff6d4a;
     font-size: 25px;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
     
 }
 
