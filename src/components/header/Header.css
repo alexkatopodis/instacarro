@@ -54,6 +54,7 @@ header {
     height: 100%;
     padding: 10px 0;
     font-weight: 600;
+    
 }
 
 .user-container img {
@@ -78,7 +79,11 @@ header {
 
 @media (max-width: 760px) {
     .phone-header, 
-    .phone-header img {
+    .phone-header img{
       overflow: hidden;
+    }
+
+    .container-header {
+        max-width: 200px;
     }
 }
